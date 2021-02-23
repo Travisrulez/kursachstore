@@ -1,0 +1,29 @@
+            .cars {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                width: 100;
+            }
+            
+            .card {
+                width: 26%;
+            }
+            
+            .cardi {
+                border: 1px solid lightgrey;
+                border-radius: 30px;
+                padding: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            @media (max-width: 600px) {
+                .cars {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .card {
+                    width: 100%;
+                }
+            }

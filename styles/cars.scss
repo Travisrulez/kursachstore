@@ -1,0 +1,20 @@
+        .cars {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100;
+        }
+        
+        .card {
+            width: 26%;
+        }
+        
+        @media (max-width: 600px) {
+            .cars {
+                display: flex;
+                flex-direction: column;
+            }
+            .card {
+                width: 100%;
+            }
+        }
